@@ -1,0 +1,31 @@
+{
+  "name": "twitter-cookie",
+  "version": "1.0.2",
+  "description": "A simple utility to get twitter cookies (as JSON array). Can be used for initialize twitter client (agent-twitter-client or @the-convocation/twitter-scraper)",
+  "main": "dist/index.js",
+  "bin": {
+    "twitter-cookie": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup ./src/index.ts --format esm --dts --out-dir dist",
+    "postbuild": "chmod +x ./dist/index.js"
+  },
+  "keywords": [
+    "Twitter",
+    "Cookie",
+    "Agent",
+    "AgentLayer"
+  ],
+  "author": "andy@agentlayer.xyz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "agent-twitter-client": "^0.0.18",
+    "undici": "^7.3.0"
+  }
+}

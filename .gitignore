@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+vendor/
+.env
+
+# Build outputs
+dist/
+build/
+out/
+*.pyc
+__pycache__/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Testing and coverage
+coverage/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+tmp/
+temp/
