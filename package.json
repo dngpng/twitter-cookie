@@ -1,6 +1,6 @@
 {
   "name": "twitter-cookie",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple utility to get twitter cookies (as JSON array). Can be used for initialize twitter client (agent-twitter-client or @the-convocation/twitter-scraper)",
   "main": "dist/index.js",
   "bin": {
